@@ -12,7 +12,7 @@ st.set_page_config(page_title="Interactieve Meetkaart", layout="wide")
 st.title("📍 Interactieve Meetdata Kaart 2014–2024")
 
 # --- Pad naar Excelbestand ---
-bestandspad = Path(r"C:\Users\SchriksM\OneDrive - Vitens N.V\Lopen zaken Merijn Vitens\2025\Cursus\Python cursus okt 2025\Dummy_bestand_volledig_random_2014_2024.xlsx")
+bestandspad = Path("Dummy_bestand_volledig_random_2014_2024.xlsx")
 
 # ==============================================================
 # 📂 1️⃣ Data inladen (alleen één keer via caching)
@@ -136,3 +136,4 @@ st.markdown("""
 | 🟠 Oranje | 10 – 50 |
 | 🔴 Rood | > 50 |
 """)
+
