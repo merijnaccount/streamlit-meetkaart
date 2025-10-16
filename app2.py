@@ -9,7 +9,7 @@ import random
 
 # --- Pagina instellingen ---
 st.set_page_config(page_title="Interactieve Meetkaart", layout="wide")
-st.title("📍 Interactieve Meetdata Kaart 2014–2024")
+st.title("📍 Python cursus okt 2025 - Interactieve Meetdata Kaart 2014–2024")
 
 # --- Pad naar Excelbestand ---
 bestandspad = Path("Dummy_bestand_volledig_random_2014_2024.xlsx")
@@ -136,4 +136,5 @@ st.markdown("""
 | 🟠 Oranje | 10 – 50 |
 | 🔴 Rood | > 50 |
 """)
+
 
